@@ -66,6 +66,7 @@ ul {
 
 ul.nav-list {
     margin: 4rem 0;
+    padding: 0 2rem;
 }
 
 ul.nav-list li a {

@@ -7,4 +7,126 @@
 :root {
     font-size: 16px;
     font-family: 'Poppins', sans-serif;
+    --black-100: #002721;
+    --black-75: #405D58;
+    --black-50: #809390;
+    --black-25: #BFC9C7;
+    --black-10: #E6E9E9;
+    --black-5: #F2F4F4;
+    color: var(--black-100);
+}
+
+h1 {
+    font-size: 2.027rem;
+}
+
+h2 {
+    font-size: 1.802rem;
+    margin: 1rem 0 1.5rem 0;
+}
+
+h3 {
+    font-size: 1.602rem;
+}
+
+h4 {
+    font-size: 1.424rem;
+}
+
+h5 {
+    font-size: 1.266rem;
+}
+
+h6 {
+    font-size: 1.125rem;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: var(--black-75);
+    margin: 1.5rem 0;
+}
+
+a {
+    color: inherit;
+}
+
+.container {
+    max-width: 660px;
+    margin: 0 auto;
+}
+
+img {
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul.nav-list {
+    margin: 4rem 0;
+    padding: 0 2rem;
+}
+
+ul.nav-list li a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 0.938rem;
+    color: var(--black-50);
+}
+
+ul.nav-list li a:hover {
+    color: var(--black-100);
+}
+
+ul.nav-list li {
+    position: relative;
+}
+
+ul.nav-list li.active a {
+    color: var(--black-100);
+}
+
+ul.nav-list li.active::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: -8px;
+    display: block;
+    width: 4px;
+    height: 4px;
+    border-radius: 100%;
+    background-color: var(--black-100);
+    margin-top: 4px;
+}
+
+#parent {
+    margin: 8rem 0 2rem 0;
+    display: flex;
+    flex-direction: column;
+    gap: 8rem;
+}
+
+section#hero .avatar img {
+    width: 12rem;
+    height: 12rem;
+    border-radius: 100%;
+    object-fit: cover;
+    border: 1px solid var(--black-10);
+}
+
+#hero .avatar {
+    margin-bottom: 3rem;
+}
+
+a.underlined {
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    text-decoration-thickness: 2px;
+    text-decoration-color: var(--black-25);
 }

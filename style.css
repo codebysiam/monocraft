@@ -56,3 +56,46 @@ a {
 img {
     width: 100%;
 }
+
+ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul.nav-list {
+    margin: 4rem 0;
+}
+
+ul.nav-list li a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 0.938rem;
+    color: var(--black-50);
+}
+
+ul.nav-list li a:hover {
+    color: var(--black-100);
+}
+
+ul.nav-list li {
+    position: relative;
+}
+
+ul.nav-list li.active a {
+    color: var(--black-100);
+}
+
+ul.nav-list li.active::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: -8px;
+    display: block;
+    width: 4px;
+    height: 4px;
+    border-radius: 100%;
+    background-color: var(--black-100);
+    margin-top: 4px;
+}

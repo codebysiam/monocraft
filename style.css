@@ -7,6 +7,12 @@
 :root {
     font-size: 16px;
     font-family: 'Poppins', sans-serif;
+    --black-100: #002721;
+    --black-75: #405D58;
+    --black-50: #809390;
+    --black-25: #BFC9C7;
+    --black-10: #E6E9E9;
+    --black-5: #F2F4F4;
 }
 
 h1 {
@@ -36,4 +42,8 @@ h6 {
 p {
     font-size: 1rem;
     line-height: 1.5;
+}
+
+a {
+    color: inherit;
 }

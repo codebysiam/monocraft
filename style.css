@@ -47,3 +47,12 @@ p {
 a {
     color: inherit;
 }
+
+.container {
+    max-width: 660px;
+    margin: 0 auto;
+}
+
+img {
+    width: 100%;
+}

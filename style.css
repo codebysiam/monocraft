@@ -56,6 +56,15 @@ a {
     text-decoration: none;
 }
 
+a.underlined {
+    display: inline-block;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    text-decoration-thickness: 2px;
+    text-decoration-color: var(--black-25);
+    margin-top: 1rem;
+}
+
 button {
     cursor: pointer;
 }
@@ -80,6 +89,8 @@ ul {
     justify-content: space-between;
 }
 
+
+/*              NAVIGATION BAR              */
 ul.nav-list {
     padding: 4rem 2rem;
 }
@@ -116,6 +127,8 @@ ul.nav-list li.active::after {
     margin-top: 4px;
 }
 
+/*              PARENT SECTION              */
+
 #parent {
     margin: 4rem 0;
     display: flex;
@@ -123,6 +136,7 @@ ul.nav-list li.active::after {
     gap: 8rem;
 }
 
+/*              HERO SECTION              */
 section#hero .avatar img {
     width: 12rem;
     height: 12rem;
@@ -135,15 +149,7 @@ section#hero .avatar img {
     margin-bottom: 2rem;
 }
 
-a.underlined {
-    display: inline-block;
-    text-decoration: underline;
-    text-underline-offset: 4px;
-    text-decoration-thickness: 2px;
-    text-decoration-color: var(--black-25);
-    margin-top: 1rem;
-}
-
+/*              SHOWCASE SECTIONS               */
 section.showcase {
     display: flex;
     flex-direction: column;
@@ -191,8 +197,7 @@ section.showcase {
     object-position: center 2rem;
 }
 
-
-
+/*              CALL TO ACTION SECTION              */
 #cta .wrapper-cta {
     padding: 2rem;
     background-color: var(--black-5);
@@ -239,6 +244,8 @@ section.showcase {
     background: white;
 }
 
+
+/*              FOOTER SECTION              */
 #main-footer .footer-wrapper {
     display: flex;
     flex-direction: row;

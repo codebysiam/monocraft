@@ -321,3 +321,11 @@ section.showcase {
 .footer-wrapper .rating-stars i:hover~i {
     color: orange;
 }
+
+/*              COPYRIGHT               */
+.copyright {
+    display: block;
+    text-align: center;
+    margin-top: 2rem;
+    color: var(--black-75);
+}

@@ -58,11 +58,55 @@ a {
 
 a.underlined {
     display: inline-block;
+    position: relative;
     text-decoration: underline;
     text-underline-offset: 4px;
     text-decoration-thickness: 2px;
     text-decoration-color: var(--black-25);
     margin-top: 1rem;
+}
+
+/*              STYLING LINKS               */
+a.underlined::after {
+    content: "\ea70";
+    font-family: "remixicon" !important;
+    position: absolute;
+    top: 50%;
+    right: -1.25rem;
+    transform: translateY(-50%);
+    color: inherit;
+}
+
+a.underlined:hover::after {
+    transform: translateY(-12px) translateX(4px);
+    transition: transform 0.2s ease;
+}
+
+a.underlined.go-arrow:hover {
+    text-decoration-color: var(--black-50);
+}
+
+a.underline-onhover {
+    position: relative;
+}
+
+a.underline-onhover:hover {
+    text-decoration: underline;
+}
+
+
+a.underline-onhover.arrow-straight::after {
+    content: "\ea6c";
+    font-family: "remixicon" !important;
+    position: absolute;
+    top: 50%;
+    right: -1.5rem;
+    transform: translateY(-50%);
+}
+
+a.underline-onhover:hover::after {
+    transform: translateX(4px) translateY(-50%);
+    transition: transform 0.2s ease;
 }
 
 button {

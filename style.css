@@ -45,11 +45,11 @@ p {
     font-size: 1rem;
     line-height: 1.5;
     color: var(--black-75);
-    margin: 1.5rem 0;
 }
 
 a {
     color: inherit;
+    text-decoration: none;
 }
 
 .container {
@@ -129,4 +129,47 @@ a.underlined {
     text-underline-offset: 4px;
     text-decoration-thickness: 2px;
     text-decoration-color: var(--black-25);
+}
+
+section.showcase {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.showcase .card {
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.showcase .card .text-content {
+    flex: 1;
+}
+
+.card .text-content h5 a:hover {
+    text-decoration: underline;
+}
+
+.card .text-content .date {
+    display: inline-block;
+    font-size: 0.875rem;
+    color: var(--black-50);
+    margin-bottom: 0.25rem;
+}
+
+.showcase .card .image-content {
+    width: 8rem;
+    height: 9rem;
+    background: var(--black-5);
+    border-radius: 0.5rem;
+    overflow: hidden;
+    margin: 1.75rem 0;
+}
+
+.showcase .card .image-content img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center 2rem;
 }

@@ -297,9 +297,27 @@ section.showcase {
 }
 
 .footer-wrapper .text-and-links a {
-    margin-right: 1.5rem;
+    margin-right: 1.75rem;
 }
 
 .footer-wrapper .feedback-rating {
     text-align: right;
+}
+
+.footer-wrapper .rating-stars {
+    display: flex;
+    gap: 0.25rem;
+    justify-content: flex-end;
+    margin-top: .80rem;
+    cursor: pointer;
+}
+
+.footer-wrapper .rating-stars i {
+    font-size: 1.25rem;
+    color: var(--black-10);
+}
+
+.footer-wrapper .rating-stars i:hover,
+.footer-wrapper .rating-stars i:hover~i {
+    color: orange;
 }

@@ -81,8 +81,7 @@ ul {
 }
 
 ul.nav-list {
-    margin: 4rem 0;
-    padding: 0 2rem;
+    padding: 4rem 2rem;
 }
 
 ul.nav-list li a {
@@ -118,7 +117,7 @@ ul.nav-list li.active::after {
 }
 
 #parent {
-    margin: 8rem 0 2rem 0;
+    margin: 4rem 0;
     display: flex;
     flex-direction: column;
     gap: 8rem;
@@ -133,14 +132,16 @@ section#hero .avatar img {
 }
 
 #hero .avatar {
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
 }
 
 a.underlined {
+    display: inline-block;
     text-decoration: underline;
     text-underline-offset: 4px;
     text-decoration-thickness: 2px;
     text-decoration-color: var(--black-25);
+    margin-top: 1rem;
 }
 
 section.showcase {
@@ -159,6 +160,9 @@ section.showcase {
     flex: 1;
 }
 
+.card .text-content h5 {
+    margin-bottom: 1rem;
+}
 
 .card .text-content h5 a:hover {
     text-decoration: underline;

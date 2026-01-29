@@ -229,3 +229,17 @@ section.showcase {
     border-radius: 0.375rem;
     background: white;
 }
+
+#main-footer .footer-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer-wrapper .text-and-links a {
+    margin-right: 1.5rem;
+}
+
+.footer-wrapper .feedback-rating {
+    text-align: right;
+}

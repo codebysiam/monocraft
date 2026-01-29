@@ -50,12 +50,12 @@ The design focuses on readability, whitespace, and subtle interactions—inspire
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/your-repo-name.git
+   git clone https://github.com/codebysiam/minimal-portfolio.git
    ```
 2. Navigate into the project folder:
 
    ```bash
-   cd your-repo-name
+   cd minimal-portfolio
    ```
 3. Open `index.html` in your browser:
 

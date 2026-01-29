@@ -164,11 +164,12 @@ ul.nav-list li.active::after {
     left: 50%;
     bottom: -8px;
     display: block;
-    width: 4px;
-    height: 4px;
-    border-radius: 100%;
+    width: 20%;
+    height: 2px;
+    /* border-radius: 100%; */
     background-color: var(--black-100);
     margin-top: 4px;
+    transform: translateX(-50%);
 }
 
 /*              PARENT SECTION              */

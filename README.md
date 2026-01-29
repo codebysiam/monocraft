@@ -4,7 +4,6 @@ MonoCraft is a clean, minimal, single-page portfolio website built using **HTML*
 
 The design focuses on readability, whitespace, and subtle interactions—inspired by modern developer portfolios.
 
----
 
 ## 🎯 Purpose of This Project
 
@@ -13,7 +12,6 @@ The design focuses on readability, whitespace, and subtle interactions—inspire
 * Showcase projects and written articles in a structured way
 * Provide a strong foundation for a personal or developer portfolio website
 
----
 
 ## ✨ Features
 
@@ -26,7 +24,6 @@ The design focuses on readability, whitespace, and subtle interactions—inspire
 * Simple, readable CSS architecture
 * Fully static (no JavaScript)
 
----
 
 ## 🛠️ Tech Stack
 
@@ -35,7 +32,6 @@ The design focuses on readability, whitespace, and subtle interactions—inspire
 * **Google Fonts**
 * **Remix Icon CDN**
 
----
 
 ## 📂 Project Structure
 
@@ -48,8 +44,6 @@ The design focuses on readability, whitespace, and subtle interactions—inspire
 │   └── iPhone_12.png
 └── README.md
 ```
-
----
 
 ## 🚀 How to Run Locally
 
@@ -68,7 +62,6 @@ The design focuses on readability, whitespace, and subtle interactions—inspire
    * Double-click the file, or
    * Use Live Server (VS Code extension)
 
----
 
 ## 📌 Learning Outcomes
 
@@ -77,7 +70,6 @@ The design focuses on readability, whitespace, and subtle interactions—inspire
 * Understanding of minimal UI/UX principles
 * Experience organizing a small frontend project
 
----
 
 ## 🔮 Possible Improvements
 
@@ -87,12 +79,10 @@ The design focuses on readability, whitespace, and subtle interactions—inspire
 * Add real project data
 * Deploy using GitHub Pages
 
----
 
 ## 📄 License
 
 This project is open-source and available for learning purposes.
 
----
 
 ### ⭐ If you find this useful, feel free to star the repository!

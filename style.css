@@ -190,9 +190,30 @@ section#hero .avatar img {
     border: 1px solid var(--black-10);
 }
 
+
 #hero .avatar {
+    position: relative;
     margin-bottom: 2rem;
+    width: fit-content;
 }
+
+section#hero .avatar::after {
+    content: '🎯';
+    font-size: 0.75rem;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    background-color: var(--black-5);
+    color: var(--black-100);
+    padding: .25rem 1rem;
+    border-radius: 1rem;
+    border: 1px solid var(--black-10);
+}
+
+section#hero .avatar:hover::after {
+    content: '🎯 focusing';
+}
+
 
 /*              SHOWCASE SECTIONS               */
 section.showcase {

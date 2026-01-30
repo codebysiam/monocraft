@@ -329,4 +329,5 @@ section.showcase {
     text-align: center;
     margin-top: 2rem;
     color: var(--black-75);
+    user-select: none;
 }
